@@ -48,4 +48,6 @@ create the docker images for the following services (instructions are on README.
 
 ### How to import MongoDB Ereasearch Repositorer Platform dump data
 
-* TODO with mongorestore
+* First execute: `docker-compose up` in order to start mongodb as a docker container.
+
+* Then in order to load the dump, execute: `mongorestore -h localhost:27017 --db eresearch chriniko/eresearch/`
