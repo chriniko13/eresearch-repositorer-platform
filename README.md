@@ -1,14 +1,14 @@
-# ERESEARCH REPOSITORY PLATFORM
+# ERESEARCH REPOSITORER PLATFORM
 
 ![](e-research.gif)
 
 
 ### Description
 This is a convenient repository, which holds a docker compose file,
-which starts up the whole repository platform.
+that starts up the whole eresearch repositorer platform.
 
-In order to run the docker compose file, first you need to
-create docker images for the following services (instructions are on README.md of every service):
+In order to run the docker compose file (`docker-compose.yml`), first you need to
+create the docker images for the following services (instructions are on README.md of every service):
 
 * Platform services:
     * [eresearch-repositorer-service](https://github.com/chriniko13/eresearch-repositorer-service)
@@ -21,6 +21,7 @@ create docker images for the following services (instructions are on README.md o
 
 
 * When you create the above images you can execute: `docker-compose up` in order to start the containers.
+
 * (Optional) in order to stop the containers, execute: `docker-compose down`
 
 * In order to see specific logs of a container execute: `docker-compose logs -f <container_name>`, eg: `docker-compose logs -f eresearch-dblp-consumer`
