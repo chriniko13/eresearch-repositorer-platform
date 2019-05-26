@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":2,"key":{"_id":1},"name":"_id_","ns":"eresearch.retry-entries"},{"v":2,"key":{"firstname":-1,"initials":-1,"surname":-1},"name":"findRetryEntryByFirstnameEqualsAndInitialsEqualsAndSurnameEquals","ns":"eresearch.retry-entries"}],"uuid":"42c669bd86994a6385087857e137a032"}

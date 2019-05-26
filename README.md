@@ -38,6 +38,14 @@ create the docker images for the following services (instructions are on README.
 
 
 
-### TODOs
-* mongodb data for all CS teiath academics.
+### How to dump MongoDB Eresearch Repositorer Platform data
+* Enter in container with bash: `docker exec -it <mongo_container_name> bash`
 
+* Take a dump of eresearch db to a directory: `mongodump --db eresearch --out ./chriniko` (Default mongo dump directory is: `dump`)
+
+* Copy the docker directory to host machine: `docker cp eresearchrepositorerplatform_mongo_1:/chriniko/ .`
+
+
+### How to import MongoDB Ereasearch Repositorer Platform dump data
+
+* TODO with mongorestore
